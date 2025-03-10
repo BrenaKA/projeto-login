@@ -10,8 +10,9 @@ Extra large devices (large laptops and desktops, 1200px and up)
 */
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-    section#login {
+    section#login { /* CONF PARA TABLET*/
         width: 80vw;
+        height: 280px;
     }
 
     body {
@@ -30,13 +31,14 @@ Extra large devices (large laptops and desktops, 1200px and up)
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) { /* CONF PARA TABLET*/
     body {
         background-image: linear-gradient(to top, #91CCD9, #BF5D39);
     }
 
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -54,6 +56,8 @@ Extra large devices (large laptops and desktops, 1200px and up)
     }
 
     div#formulario > p {
-    font-size: 1.2em;
+    font-size: 1em;
+    margin: 20px 0px;
+
 }
 }
